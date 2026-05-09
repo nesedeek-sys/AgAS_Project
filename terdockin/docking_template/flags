@@ -1,7 +1,7 @@
 -score::weights ref2015_cst.wts
 -in
  -file
-  -s enzyme.pdb
+  -s AgAS.pdb
   -extra_res_path params/
 -out
  -file
@@ -14,7 +14,7 @@
 -packing::ex2aro
 -packing::extrachi_cutoff 1
 -packing::use_input_sc
--packing::unboundrot enzyme.pdb
+-packing::unboundrot AgAS.pdb
 -packing::flip_HNQ
 -packing::no_optH false
 
